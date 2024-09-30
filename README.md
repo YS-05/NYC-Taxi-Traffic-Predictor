@@ -1,7 +1,5 @@
 # NYC-Taxi-Traffic-Predictor
 
-This project demonstrates how to build a time series forecasting model to predict the number of taxi pickups in New York City over time using TensorFlow. The model is built using convolutional and LSTM layers for feature extraction and sequence modeling, providing a robust solution for time series forecasting.
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Dataset](#dataset)
@@ -11,7 +9,8 @@ This project demonstrates how to build a time series forecasting model to predic
 - [License](#license)
 
 ## Introduction
-The goal of this project is to forecast taxi traffic in NYC using a deep learning model. The dataset contains time series data representing taxi counts over timestamps, and the model aims to predict future counts based on historical data. The dataset is first preprocessed and scaled, followed by creating a deep learning architecture involving Conv1D and LSTM layers.
+
+This project demonstrates how to build a time series forecasting model using TensorFlow to predict the number of taxi pickups in New York City over time. The goal of this project is to forecast taxi traffic in NYC using a deep learning model. The dataset contains time series data representing taxi counts over timestamps, and the model aims to predict future counts based on historical data. The dataset is first preprocessed and scaled, followed by creating a deep learning architecture involving Conv1D and LSTM layers.
 
 ## Dataset
 The dataset used in this project contains the following columns:
