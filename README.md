@@ -39,7 +39,8 @@ lstm (LSTM)                     (None, 336, 64)             33,024
 lstm_1 (LSTM)                   (None, 64)                  33,024    
 dense (Dense)                   (None, 30)                  1,950     
 dense_1 (Dense)                 (None, 10)                  310       
-dense_2 (Dense)                 (None, 1)                   11        
+dense_2 (Dense)                 (None, 1)                   11
+```
 
 ## Results
 After training for just 100 epochs, the model achieves excellent performance, with a low Mean Absolute Error (MAE) on the validation set.
